@@ -32,7 +32,7 @@ int main(int argc, char* argv[]) {
 	n1 = ntohl(n1);
 	n2 = ntohl(n2);
 
-	printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", n1, n1, n2, n2, n1+n2, n1+n2);
+	printf("%d(%#x) + %d(%#x) = %d(%#x)\n", n1, n1, n2, n2, n1+n2, n1+n2);
 	return 0;
 }
 
